@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Generator"
+  short_description: "Turn raw requirements into one execution-ready AI prompt"
+  default_prompt: "Use $prompt-generator to turn my raw request into one detailed, copy-ready prompt without executing it."
+policy:
+  allow_implicit_invocation: true
+
