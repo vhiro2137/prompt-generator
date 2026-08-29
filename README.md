@@ -4,6 +4,10 @@
 
 Its central boundary is simple: **generate the prompt, but do not execute the underlying task**. Referenced files, URLs, repositories, recordings, and other materials are described as inputs for the target AI; this Skill does not inspect or act on them while composing the prompt.
 
+## Chinese reference version
+
+For a file-by-file Chinese translation intended for comparison and study, visit [prompt-generator-zh](https://github.com/vhiro2137/prompt-generator-zh). The English repository remains the authoritative Skill source; the Chinese repository is a human-readable reference mirror and is not intended for Skill loading.
+
 ## Features
 
 - Produces one self-contained prompt instead of multiple condensed variants.
@@ -60,4 +64,3 @@ Each request is treated as independent unless the user explicitly asks to reuse 
 ## License
 
 This project is released under the [MIT License](LICENSE).
-
